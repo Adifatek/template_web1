@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+Aplikasi Manajemen Pegawai
+</header>
+<div class="container">
+<aside>
+<ul class="menu">
+    <li> <a href="dashboard.html" class="aktif">Dashboard</a> </li>
+    <li> <a href="tabel.html">Data Pegawai</a> </li>
+    <li> <a href="jabatan.html">Data Jabatan</a> </li>
+    <li> <a href="user.html">Data User</a> </li>
+    <li> <a href="login.html">Keluar</a> </li
+</ul>
+</aside>
+<section class="main">
+<h2 class="judul">Tambah Data User</h2>
+    <form method="post" action="proses.php">    
+       <div class="form-group">
+            <label for="nama">Nama Lengkap</label>
+            <div class="input"><input type="text" id="nama" placeholder="Masukan Nama Lengkap"></div>
+        </div>   
+        <div class="form-group">
+            <label for="username">Username</label>
+            <div class="input"><input type="text" id="username" placeholder="Masukan Username"></div>
+        </div> 
+        <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input"><input type="password" id="password" placeholder="Password Maximal 8 s"></div>
+        </div> 
+        <div class="form-group">
+            <input type="submit" value="Simpan" class="tombol simpan">
+            <input type="reset" value="Batal" class="tombol reset">
+       </div>
+    </form>
+</section>
+</div>
+<footer>
+Copyright &copy; Ridho
+</footer>
+</body>
+</html>
